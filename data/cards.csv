@@ -1,0 +1,6 @@
+Name,Type,Health,Weakness,Resistance,Retreat,Stage,Pre-evolution,Move1,Move2,Move3,Move4,Move5,Art,Illustrator
+Torchic,Fire,60,Water_*2,,1,Base,,Fire|Peck||10,Fire_Normal|/rLive Coal|/rFlip [1] coin. Heads:[burning];Tails:[nothing]|20,,,,,Mark
+Lotad_grass,Grass,60,Fire_*2,,1,Base,,Normal|Mini Drain|Heals 10 /gHP/n.|10,Grass_Normal|Ram||20,,,,,Mark
+Lotad_water,Water,60,Grass_*2,,1,Base,,"Ability|Water Body|If [1][Water] is attached, retreat for free.|0",Normal_Normal|Rolling Tackle||20,,,,,Mark
+Zigzagoon,Normal,60,Fighting_*2,,1,Base,,Ability|Ability|Deals [+10] dmg to non-opposing PKM.|0,Normal|Headbutt||10,,,,,Mark
+Drampa,Normal,80,Fighting_*2,,2,Base,,Ability|Wisdom|Takes [-10] dmg from PKM with the same Type as Energy attached to this PKM.|0,Normal_Normal|Echoed Voice|[+10] dmg for each time used in a row.|+10,,,,,Mark

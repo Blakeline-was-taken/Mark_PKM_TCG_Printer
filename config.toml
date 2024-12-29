@@ -1,0 +1,6 @@
+cards_file_path = "data/cards.csv"
+
+export_sorted_by_folder = true
+
+types = ["Fire", "Water", "Grass", "Electric", "Psychic", "Fighting", "Normal"]
+base_colors = [[226, 233, 243], [148, 227, 68], [70, 135, 143], [51, 44, 80]]

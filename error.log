@@ -1,0 +1,223 @@
+2024-12-29 00:01:02,061 - root - ERROR - Error in thread while executing export function: Width and height must be >= 0
+Traceback (most recent call last):
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 34, in target_func
+    export_function(*args, **kwargs)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 138, in export_card
+    image = cards.create_card(row)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 221, in create_card
+    print_moves(image, [csv_dict[f'Move{i}'] for i in range(1, 6)], pkmn_type)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 145, in print_moves
+    move_images.append(get_move_image(move, x_move_name, pkmn_type))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 124, in get_move_image
+    final_img = Image.new("RGBA", (move_img.width, move_img.height + (3 if ability else 0) + desc_img.height + spacing_desc), (0, 0, 0, 0))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 2894, in new
+    _check_size(size)
+  File "C:\Users\loana\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 2873, in _check_size
+    raise ValueError(msg)
+ValueError: Width and height must be >= 0
+
+2024-12-29 00:01:02,062 - root - ERROR - Error in thread while executing export function: Width and height must be >= 0
+Traceback (most recent call last):
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 34, in target_func
+    export_function(*args, **kwargs)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 138, in export_card
+    image = cards.create_card(row)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 221, in create_card
+    print_moves(image, [csv_dict[f'Move{i}'] for i in range(1, 6)], pkmn_type)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 145, in print_moves
+    move_images.append(get_move_image(move, x_move_name, pkmn_type))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 124, in get_move_image
+    final_img = Image.new("RGBA", (move_img.width, move_img.height + (3 if ability else 0) + desc_img.height + spacing_desc), (0, 0, 0, 0))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 2894, in new
+    _check_size(size)
+  File "C:\Users\loana\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 2873, in _check_size
+    raise ValueError(msg)
+ValueError: Width and height must be >= 0
+
+2024-12-29 00:01:02,062 - root - ERROR - Error in thread while executing export function: Width and height must be >= 0
+Traceback (most recent call last):
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 34, in target_func
+    export_function(*args, **kwargs)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 138, in export_card
+    image = cards.create_card(row)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 221, in create_card
+    print_moves(image, [csv_dict[f'Move{i}'] for i in range(1, 6)], pkmn_type)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 145, in print_moves
+    move_images.append(get_move_image(move, x_move_name, pkmn_type))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 124, in get_move_image
+    final_img = Image.new("RGBA", (move_img.width, move_img.height + (3 if ability else 0) + desc_img.height + spacing_desc), (0, 0, 0, 0))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 2894, in new
+    _check_size(size)
+  File "C:\Users\loana\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 2873, in _check_size
+    raise ValueError(msg)
+ValueError: Width and height must be >= 0
+
+2024-12-29 00:01:02,069 - root - ERROR - Error in thread while executing export function: Width and height must be >= 0
+Traceback (most recent call last):
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 34, in target_func
+    export_function(*args, **kwargs)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 138, in export_card
+    image = cards.create_card(row)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 221, in create_card
+    print_moves(image, [csv_dict[f'Move{i}'] for i in range(1, 6)], pkmn_type)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 145, in print_moves
+    move_images.append(get_move_image(move, x_move_name, pkmn_type))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 124, in get_move_image
+    final_img = Image.new("RGBA", (move_img.width, move_img.height + (3 if ability else 0) + desc_img.height + spacing_desc), (0, 0, 0, 0))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 2894, in new
+    _check_size(size)
+  File "C:\Users\loana\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 2873, in _check_size
+    raise ValueError(msg)
+ValueError: Width and height must be >= 0
+
+2024-12-29 00:01:07,841 - root - ERROR - Error in thread while executing export function: Width and height must be >= 0
+Traceback (most recent call last):
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 34, in target_func
+    export_function(*args, **kwargs)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 138, in export_card
+    image = cards.create_card(row)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 221, in create_card
+    print_moves(image, [csv_dict[f'Move{i}'] for i in range(1, 6)], pkmn_type)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 145, in print_moves
+    move_images.append(get_move_image(move, x_move_name, pkmn_type))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 124, in get_move_image
+    final_img = Image.new("RGBA", (move_img.width, move_img.height + (3 if ability else 0) + desc_img.height + spacing_desc), (0, 0, 0, 0))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 2894, in new
+    _check_size(size)
+  File "C:\Users\loana\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 2873, in _check_size
+    raise ValueError(msg)
+ValueError: Width and height must be >= 0
+
+2024-12-29 00:01:07,845 - root - ERROR - Error in thread while executing export function: Width and height must be >= 0
+Traceback (most recent call last):
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 34, in target_func
+    export_function(*args, **kwargs)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 138, in export_card
+    image = cards.create_card(row)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 221, in create_card
+    print_moves(image, [csv_dict[f'Move{i}'] for i in range(1, 6)], pkmn_type)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 145, in print_moves
+    move_images.append(get_move_image(move, x_move_name, pkmn_type))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 124, in get_move_image
+    final_img = Image.new("RGBA", (move_img.width, move_img.height + (3 if ability else 0) + desc_img.height + spacing_desc), (0, 0, 0, 0))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 2894, in new
+    _check_size(size)
+  File "C:\Users\loana\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 2873, in _check_size
+    raise ValueError(msg)
+ValueError: Width and height must be >= 0
+
+2024-12-29 00:01:07,853 - root - ERROR - Error in thread while executing export function: Width and height must be >= 0
+Traceback (most recent call last):
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 34, in target_func
+    export_function(*args, **kwargs)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 138, in export_card
+    image = cards.create_card(row)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 221, in create_card
+    print_moves(image, [csv_dict[f'Move{i}'] for i in range(1, 6)], pkmn_type)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 145, in print_moves
+    move_images.append(get_move_image(move, x_move_name, pkmn_type))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 124, in get_move_image
+    final_img = Image.new("RGBA", (move_img.width, move_img.height + (3 if ability else 0) + desc_img.height + spacing_desc), (0, 0, 0, 0))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 2894, in new
+    _check_size(size)
+  File "C:\Users\loana\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 2873, in _check_size
+    raise ValueError(msg)
+ValueError: Width and height must be >= 0
+
+2024-12-29 00:01:15,318 - root - ERROR - Error in thread while executing export function: Width and height must be >= 0
+Traceback (most recent call last):
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 34, in target_func
+    export_function(*args, **kwargs)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 138, in export_card
+    image = cards.create_card(row)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 221, in create_card
+    print_moves(image, [csv_dict[f'Move{i}'] for i in range(1, 6)], pkmn_type)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 145, in print_moves
+    move_images.append(get_move_image(move, x_move_name, pkmn_type))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 124, in get_move_image
+    final_img = Image.new("RGBA", (move_img.width, move_img.height + (3 if ability else 0) + desc_img.height + spacing_desc), (0, 0, 0, 0))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 2894, in new
+    _check_size(size)
+  File "C:\Users\loana\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 2873, in _check_size
+    raise ValueError(msg)
+ValueError: Width and height must be >= 0
+
+2024-12-29 14:54:47,952 - root - ERROR - Error in thread while executing export function: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 34, in target_func
+    export_function(*args, **kwargs)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 138, in export_card
+    image = cards.create_card(row)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 221, in create_card
+    print_moves(image, [csv_dict[f'Move{i}'] for i in range(1, 6)], pkmn_type)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 145, in print_moves
+    move_images.append(get_move_image(move, x_move_name, pkmn_type))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 79, in get_move_image
+    energies, name, desc, power = move[0], move[1], move[2], move[3]
+                                                             ~~~~^^^
+IndexError: list index out of range
+
+2024-12-29 18:15:09,764 - root - ERROR - Error while trying to generate Drampa: invalid literal for int() with base 10: '+'
+Traceback (most recent call last):
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\add_card.py", line 68, in save_card
+    image = export_card(card_data_dict)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 138, in export_card
+    image = cards.create_card(row)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 224, in create_card
+    print_moves(image, [csv_dict[f'Move{i}'] for i in range(1, 6)], pkmn_type)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 148, in print_moves
+    move_images.append(get_move_image(move, x_move_name, pkmn_type))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 102, in get_move_image
+    power_img = Image.open("assets/other/status.png") if power == '0' else write_number(power)
+                                                                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\writer.py", line 43, in write_number
+    left = int(digit) * 5
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '+'
+
+2024-12-29 18:32:29,486 - root - ERROR - Error in thread while executing export function: [Errno 2] No such file or directory: 'assets/card_art/Gengar_News.png'
+Traceback (most recent call last):
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 34, in target_func
+    export_function(*args, **kwargs)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\main.py", line 138, in export_card
+    image = cards.create_card(row)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 197, in create_card
+    load_portrait(image, art_file)
+  File "C:\Users\loana\Documents\Fichiers\Code\Pokemon Mark Card Printer\model\cards.py", line 14, in load_portrait
+    portrait = Image.open(f"assets/card_art/{art_file}").convert("RGBA")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\loana\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 3218, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'assets/card_art/Gengar_News.png'
+
