@@ -11,7 +11,7 @@ def load_cardbase(pkmn_type) -> Image.Image:
 
 
 def load_portrait(image, art_file):
-    portrait = Image.open(f"assets/card_art/{art_file}").convert("RGBA")
+    portrait = Image.open(art_file).convert("RGBA")
     image.paste(portrait, (11, 20), portrait)
 
 
@@ -193,7 +193,8 @@ def create_card(csv_dict):
     image = load_cardbase(pkmn_type)
 
     # Load card portrait
-    art_file = csv_dict['Art'] if csv_dict['Art'] else (csv_dict['Name'].translate(str.maketrans("", "", " ',-!?")) + ".png")
+    art_file_card_name = csv_dict['Name'].translate(str.maketrans("", "", " ',-!?"))
+    art_file = csv_dict['Art'] if csv_dict['Art'] else f"assets/card_art/{art_file_card_name}.png"
     load_portrait(image, art_file)
 
     # Print health
