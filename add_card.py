@@ -4,7 +4,7 @@ from tkinter import ttk, messagebox, filedialog
 import csv
 import os
 from model import config, logging
-from main import export_card
+from print import export_card
 from model.cards import create_card
 
 CARDS_FILE_PATH = config["cards_file_path"]
