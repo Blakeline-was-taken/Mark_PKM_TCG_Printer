@@ -10,6 +10,7 @@ Pokémon is obviously owned by Nintendo and have full control over the franchise
 
 ### **1. Install Python.**
 Yeah, you're gonna find it pretty hard to launch python files without installing Python first. To install python, simply go to this page : https://www.python.org/downloads/ and you can download the latest version.
+IMPORTANT ! During the installation, don't forget to check the box that says "Add python.exe to PATH" otherwise the rest of this installation process will not work !!
 
 ### **2. Installing dependencies**
 This printer uses a couple of librairies not native to Python. To install them, please do the following :
