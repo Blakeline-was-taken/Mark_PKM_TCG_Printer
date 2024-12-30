@@ -13,7 +13,7 @@ Yeah, you're gonna find it pretty hard to launch python files without installing
 
 ### **2. Installing dependencies**
 This printer uses a couple of librairies not native to Python. To install them, please do the following :
-1. Open Python using the Start Menu. Just start typing "Python" in the search bar and you should see it. If you see a terminal open, you're doing great !
+1. Open a terminal using the Start Menu. Just start typing "cmd" in the search bar and you should see it. If you see a console open, you're doing great !
 2. In the console, use the following commands: `pip install toml`, `pip install pillow`. (note : that last one is extremely important, the project CANNOT work without it.)
 3. If you see no errors pop up, you should be able to launch the python files now ! :D
 
